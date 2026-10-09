@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1c2923">
+  <meta name="description" content="Projets de construction, structures, réhabilitation et infrastructures réalisés par Ilunga Tshibanda Josué.">
+  <title>Projets — Ilunga Tshibanda Josué, ingénieur en construction</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="ILUNGA TSHIBANDA Josué, accueil"><img class="wordmark-logo" src="logos/logo.png" alt="Logo JO Construction"></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Ouvrir le menu"><span></span><span></span></button>
+    <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+      <a class="nav-link" href="index.html">Accueil</a>
+      <a class="nav-link" href="apropos.html">À propos</a>
+      <a class="nav-link active" aria-current="page" href="projets.html">Projets</a>
+      <a class="nav-link" href="formation.html">Formation</a>
+      <a class="nav-contact" href="contact.html">Me contacter <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-heading section-wrap">
+      <p class="eyebrow">SÉLECTION · 2023—2026</p>
+      <h1>Des projets<br><span>qui tiennent debout.</span></h1>
+      <div class="page-heading-bottom"><p>Chaque chantier a ses contraintes. Le travail, c’est de les transformer en décisions claires et en résultats qui durent.</p><span class="display-count">04 <small>PROJETS</small></span></div>
+    </section>
+
+    <section class="project-list section-wrap" aria-label="Portfolio de projets">
+      <div class="filter-bar" role="group" aria-label="Filtrer les projets">
+        <span>FILTRER</span>
+        <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">Tous <span>04</span></button>
+        <button class="filter-button" type="button" data-filter="structure" aria-pressed="false">Structures <span>02</span></button>
+        <button class="filter-button" type="button" data-filter="rehabilitation" aria-pressed="false">Réhabilitation <span>01</span></button>
+        <button class="filter-button" type="button" data-filter="infrastructure" aria-pressed="false">Infrastructure <span>01</span></button>
+      </div>
+      <div class="project-grid-full">
+        <article class="project-card project-card-full reveal" id="tour-lumen" data-category="structure">
+          <button class="project-image" type="button" data-project="tour-lumen" aria-label="Détails du projet Tour Lumen"><img src="images/maison05.jpg" alt="Maison contemporaine blanche et grise à deux étages avec balcon"><span class="image-open">VOIR LE PROJET ↗</span></button>
+          <div class="project-meta"><span>01 — STRUCTURE MIXTE</span><span>Kinshasa · 2025</span></div>
+          <h2>Tour Lumen <button class="detail-button" type="button" data-project="tour-lumen" aria-label="Détails de Tour Lumen">↗</button></h2>
+          <p>2 étages · 1 logements · Coordination structure et enveloppe</p>
+        </article>
+        <article class="project-card project-card-full reveal" id="pavillon-des-rives" data-category="rehabilitation">
+          <button class="project-image" type="button" data-project="pavillon-des-rives" aria-label="Détails du projet Pavillon des Rives"><img src="images/maison06.jpg" alt="Maison contemporaine sombre avec façade en pierre et terrasse"><span class="image-open">VOIR LE PROJET ↗</span></button>
+          <div class="project-meta"><span>02 — RÉHABILITATION</span><span>LONGUEUIL · 2025</span></div>
+          <h2>Pavillon des Rives <button class="detail-button" type="button" data-project="pavillon-des-rives" aria-label="Détails du Pavillon des Rives">↗</button></h2>
+          <p>Bâtiment privé · 30 m² · Réfection et mise aux normes</p>
+        </article>
+        <article class="project-card project-card-full reveal" id="passerelle-nord" data-category="infrastructure">
+          <button class="project-image" type="button" data-project="passerelle-nord" aria-label="Détails du projet Passerelle du Nord"><img src="images/plan01.jpg" alt="Plan architectural détaillé d’une maison avec plusieurs chambres et espaces de vie"><span class="image-open">VOIR LE PROJET ↗</span></button>
+          <div class="project-meta"><span>03 — INFRASTRUCTURE</span><span>LAVAL · 2023</span></div>
+          <h2>Passerelle du Nord <button class="detail-button" type="button" data-project="passerelle-nord" aria-label="Détails de la Passerelle du Nord">↗</button></h2>
+          <p>Ouvrage piéton · 10 m · Conception et suivi de chantier</p>
+        </article>
+        <article class="project-card project-card-full reveal" id="cour-des-arts" data-category="structure">
+          <button class="project-image" type="button" data-project="cour-des-arts" aria-label="Détails du projet Cour des Arts"><img src="images/plan02.jpg" alt="Plan d’une maison avec terrasse, séjour, cuisine et chambres"><span class="image-open">VOIR LE PROJET ↗</span></button>
+          <div class="project-meta"><span>04 — STRUCTURE BOIS</span><span>Kinshasa · 2026</span></div>
+          <h2>Cour des Gardinage <button class="detail-button" type="button" data-project="cour-des-arts" aria-label="Détails de la Cour des Arts">↗</button></h2>
+          <p>Équipement culturel · 21 m² · Structure hybride bois-béton</p>
+        </article>
+      </div>
+      <p class="empty-results" hidden>Aucun projet ne correspond à ce filtre.</p>
+    </section>
+
+    <section class="project-cta"><div><p class="eyebrow light-eyebrow">VOTRE PROJET, LA PROCHAINE ÉTAPE</p><h2>On le construit<br><span>ensemble ?</span></h2></div><a class="round-link" href="contact.html" aria-label="Me contacter"><span>↗</span></a></section>
+  </main>
+
+  <dialog class="project-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" aria-label="Fermer les détails">×</button>
+    <p class="eyebrow" data-dialog-meta></p>
+    <h2 id="dialog-title" data-dialog-title></h2>
+    <p data-dialog-description></p>
+    <a class="text-link" href="contact.html">Discuter d’un projet similaire <span aria-hidden="true">↗</span></a>
+  </dialog>
+
+  <footer class="site-footer">
+    <div class="footer-identity">
+      <a class="footer-brand" href="index.html">ILUNGA TSHIBANDA Josué<span>.</span></a>
+      <p>Ingénieur en construction<br>Kinshasa, RD Congo</p>
+    </div>
+    <a class="footer-email" href="contact.html">Donnons forme à la suite <span>↗</span></a>
+    <div class="footer-social">
+      <span class="footer-social-label">CONTACT & RÉSEAUX</span>
+      <a href="https://pin.it/3JtWqVJbp" target="_blank" rel="noopener noreferrer" aria-label="Pinterest" title="Pinterest"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.64 19.31c-.02-.78 0-1.72.19-2.57l1.38-5.83s-.34-.68-.34-1.68c0-1.57.91-2.74 2.04-2.74.96 0 1.42.72 1.42 1.58 0 .97-.62 2.42-.94 3.77-.27 1.13.57 2.05 1.68 2.05 2.02 0 3.58-2.13 3.58-5.21 0-2.72-1.96-4.62-4.76-4.62-3.24 0-5.15 2.43-5.15 4.94 0 .98.38 2.03.85 2.6.09.11.11.21.08.33l-.31 1.27c-.05.2-.16.24-.37.14-1.38-.64-2.24-2.67-2.24-4.29 0-3.49 2.54-6.7 7.32-6.7 3.84 0 6.83 2.74 6.83 6.4 0 3.82-2.41 6.9-5.76 6.9-1.13 0-2.2-.59-2.56-1.29l-.7 2.67c-.25.97-.93 2.19-1.39 2.93A10 10 0 1 0 12 2Z"/></svg></a>
+      <a href="mailto:joconstruction683@gmail.com" aria-label="Envoyer un courriel" title="Gmail"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5Z"/></svg></a>
+      <a href="tel:+243897374531" aria-label="Appeler le +243 897 374 531" title="Téléphone"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.56 3.57.56a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.61 21 3 13.39 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.24.19 2.45.56 3.57a1 1 0 0 1-.25 1.02Z"/></svg></a>
+      <a href="https://www.linkedin.com/in/jo-construction-244385346?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 2H3.55A1.55 1.55 0 0 0 2 3.55v16.9A1.55 1.55 0 0 0 3.55 22h16.9A1.55 1.55 0 0 0 22 20.45V3.55A1.55 1.55 0 0 0 20.45 2ZM8.09 18.67H5.1v-9h2.99ZM6.6 8.43a1.73 1.73 0 1 1 0-3.46 1.73 1.73 0 0 1 0 3.46Zm12.07 10.24h-2.98v-4.38c0-1.05-.02-2.4-1.46-2.4-1.47 0-1.69 1.14-1.69 2.33v4.45H9.56v-9h2.86v1.23h.04a3.14 3.14 0 0 1 2.82-1.55c3.02 0 3.58 1.99 3.58 4.58Z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/qr/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.5-3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z"/></svg>
+      </a>
+      <a href="https://www.facebook.com/share/1JwwKWiERQ/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8.2h2.76l.41-3.2H13.5V7.56c0-.93.26-1.56 1.6-1.56h1.7V3.14C16.5 3.05 15.4 3 14.1 3c-2.66 0-4.48 1.62-4.48 4.6v2H6.6v3.2h3.02V21Z"/></svg>
+      </a>
+      <a href="https://wa.me/243897374531" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp de Josué" title="WhatsApp">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.84 11.84 0 0 0 12.08 0C5.5 0 .15 5.35.15 11.93c0 2.1.55 4.17 1.6 5.98L.05 24l6.24-1.64a11.9 11.9 0 0 0 5.78 1.48h.01c6.58 0 11.93-5.35 11.93-11.93 0-3.19-1.24-6.19-3.49-8.43ZM12.08 21.8a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.7.97.99-3.61-.24-.37a9.83 9.83 0 0 1-1.51-5.27c0-5.44 4.43-9.87 9.88-9.87a9.8 9.8 0 0 1 6.99 2.9 9.8 9.8 0 0 1 2.89 6.98c0 5.45-4.43 9.88-9.88 9.88Zm5.42-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.04-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.03-.53-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.09 4.49.71.3 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.08 1.76-.72 2.01-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35Z"/></svg>
+      </a>
+      <a href="https://www.tiktok.com/@jocibanda03?_r=1&_t=ZS-9AC5cjarfUq" target="_blank" rel="noopener noreferrer" aria-label="TikTok" title="TikTok">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.1 2.7 1.59 4.23 1.75v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.6-1.62-.95-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.78-1.35 3.93-1.3 1.89-3.55 3.12-5.85 3.16-1.41.08-2.83-.3-4.04-1.04-2.01-1.23-3.38-3.52-3.42-5.88-.13-1.46.28-2.93 1.04-4.18 1.22-2.04 3.51-3.45 5.9-3.48.22-.02.44-.01.66 0v4.14c-1.38-.05-2.8.39-3.8 1.39-.73.68-1.14 1.7-1.04 2.71.11 1.18.83 2.31 1.89 2.85 1.03.53 2.33.49 3.32-.11 1.05-.62 1.7-1.84 1.67-3.05.02-6.4 0-12.8.03-19.2Z"/></svg>
+      </a>
+    </div>
+    <div class="footer-bottom">
+      <small>© <span data-year></span>Ir Josué · Portfolio professionnel</small>
+      <a href="contact.html">Contact <span aria-hidden="true">↗</span></a>
+    </div>
+  </footer>
+</body>
+</html>
